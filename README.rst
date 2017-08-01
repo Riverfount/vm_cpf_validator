@@ -1,25 +1,26 @@
 CPF Validator
 =============
 
-.. image:: https://coveralls.io/repos/github/Riverfount/cpf_validator/badge.svg?branch=master
-   :target: https://coveralls.io/github/Riverfount/cpf_validator?branch=master
-   :alt: overage Status
+.. image:: https://travis-ci.org/Riverfount/vm_cpf_validator.svg?branch=master
+    :target: https://travis-ci.org/Riverfount/vm_cpf_validator
 
-.. image:: https://travis-ci.org/Riverfount/cpf_validator.svg?branch=master
-   :target: https://travis-ci.org/Riverfount/cpf_validator?branch=master
-   :alt: Build Status
-
-.. image:: https://landscape.io/github/Riverfount/cpf_validator/master/landscape.svg?style=flat
-   :target: https://landscape.io/github/Riverfount/cpf_validator/master
-   :alt: Code Health
-
-.. image:: https://pyup.io/repos/github/Riverfount/cpf_validator/shield.svg
-     :target: https://pyup.io/repos/github/Riverfount/cpf_validator/
+.. image:: https://pyup.io/repos/github/Riverfount/vm_cpf_validator/shield.svg
+     :target: https://pyup.io/repos/github/Riverfount/vm_cpf_validator/
      :alt: Updates
 
-. image:: https://pyup.io/repos/github/Riverfount/cpf_validator/python-3-shield.svg
-     :target: https://pyup.io/repos/github/Riverfount/cpf_validator/
+.. image:: https://pyup.io/repos/github/Riverfount/vm_cpf_validator/python-3-shield.svg
+     :target: https://pyup.io/repos/github/Riverfount/vm_cpf_validator/
      :alt: Python 3
+
+.. image:: https://coveralls.io/repos/github/Riverfount/vm_cpf_validator/badge.svg?branch=master
+     :target: https://coveralls.io/github/Riverfount/vm_cpf_validator?branch=master
+     :alt: Coverage
+
+
+.. image:: https://landscape.io/github/Riverfount/vm_cpf_validator/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/Riverfount/vm_cpf_validator/master
+   :alt: Code Health
+
 
 This package contains four modules three to validate a Brazilian CPF and one to format in correct form the Brazilian
  CPF. Each of modules can be used separately.
@@ -36,7 +37,7 @@ Usage
 
 ::
 
-  import vm-cpf-validator
+   from vm_cpf_validator import cpf_is_digits, cpf_has_correct_length, cpf_is_valid, format_cpf
 
 After import the package, follow the instructions for each function below:
 

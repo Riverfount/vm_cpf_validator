@@ -1,10 +1,11 @@
 # CPF Validator
 
-[![Build Status](https://travis-ci.org/Riverfount/cpf_validator.svg?branch=master)](https://travis-ci.org/Riverfount/cpf_validator)
-[![Coverage Status](https://coveralls.io/repos/github/Riverfount/cpf_validator/badge.svg?branch=master)](https://coveralls.io/github/Riverfount/cpf_validator?branch=master)
-[![Code Health](https://landscape.io/github/Riverfount/cpf_validator/master/landscape.svg?style=flat)](https://landscape.io/github/Riverfount/cpf_validator/master)
-[![Updates](https://pyup.io/repos/github/Riverfount/cpf_validator/shield.svg)](https://pyup.io/repos/github/Riverfount/cpf_validator/)
-[![Python 3](https://pyup.io/repos/github/Riverfount/cpf_validator/python-3-shield.svg)](https://pyup.io/repos/github/Riverfount/cpf_validator/)
+[![Build Status](https://travis-ci.org/Riverfount/vm_cpf_validator.svg?branch=master)](https://travis-ci.org/Riverfount/vm_cpf_validator)
+[![Updates](https://pyup.io/repos/github/Riverfount/vm_cpf_validator/shield.svg)](https://pyup.io/repos/github/Riverfount/vm_cpf_validator/)
+[![Python 3](https://pyup.io/repos/github/Riverfount/vm_cpf_validator/python-3-shield.svg)](https://pyup.io/repos/github/Riverfount/vm_cpf_validator/)
+[![Coverage Status](https://coveralls.io/repos/github/Riverfount/vm_cpf_validator/badge.svg?branch=master)](https://coveralls.io/github/Riverfount/vm_cpf_validator?branch=master)
+[![Code Health](https://landscape.io/github/Riverfount/vm_cpf_validator/master/landscape.svg?style=flat)](https://landscape.io/github/Riverfount/vm_cpf_validator/master)
+
 
 This package contains four modules three to validate a Brazilian CPF and one tor format in correct form the Brazilian
  CPF. Each of modules can be used separately.
@@ -15,7 +16,7 @@ This package contains four modules three to validate a Brazilian CPF and one tor
 
 ## Usage
 
-`import vm-cpf-validator`
+`from vm_cpf_validator import cpf_is_digits, cpf_has_correct_length, cpf_is_valid, format_cpf`
 
 After import the package, follow the instructions for each functions above:
 
