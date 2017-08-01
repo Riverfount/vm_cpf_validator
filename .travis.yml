@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.6.1"
+install:
+  - pip install coveralls
+script:
+  - coverage run tests/tests.py
+after_success:
+  - coveralls
+addons:
+  code_climate:
+    repo_token: 2923caea8a32c05288c400d5bd4aef77648a65559a96977b25c99f2f332f0ed9
+env:
+  - PYTHONPATH=`pwd`
