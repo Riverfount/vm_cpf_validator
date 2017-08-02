@@ -29,7 +29,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/Riverfount/cpf_validator',
+    url='https://github.com/Riverfount/vm_cpf_validator',
 
     # Author details
     author='Riverfount - Vicente Marçal',
@@ -65,7 +65,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='Brazilian CPF Validation',
+    keywords='Brazilian CPF Validation and Format',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
