@@ -1,5 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -17,7 +15,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-.idea/
 lib/
 lib64/
 parts/
@@ -46,7 +43,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
 
 # Translations
@@ -89,11 +86,16 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
-.vm_cpf
 
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
 
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
