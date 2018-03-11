@@ -20,17 +20,8 @@ Brazilian CPF Validator
 
 
 
-This package contains three modules that validates the Brazilian CPF
-
-
-* Free software: MIT license
-* Documentation: https://vm-cpf-validator.readthedocs.io.
-
-
-Features
---------
-
-* TODO
+This package contains three modules that validates the Brazilian CPF and one to format in correct form the Brazilian
+ CPF. Each of modules can be used separately.
 
 Credits
 -------
