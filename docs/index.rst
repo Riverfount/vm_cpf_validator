@@ -1,5 +1,5 @@
 Welcome to Brazilian CPF Validator's documentation!
-======================================
+=======
 
 .. toctree::
    :maxdepth: 2

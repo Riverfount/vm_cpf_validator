@@ -1,6 +1,5 @@
-=======================
 Brazilian CPF Validator
-=======================
+
 
 
 .. image:: https://img.shields.io/pypi/v/vm_cpf_validator.svg

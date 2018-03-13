@@ -13,6 +13,8 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=6.0', ]
 
+
+
 setup_requirements = ['pytest-runner', ]
 
 test_requirements = ['pytest', ]
@@ -38,6 +40,7 @@ setup(
             'vm_cpf_validator=vm_cpf_validator.cli:main',
         ],
     },
+
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,

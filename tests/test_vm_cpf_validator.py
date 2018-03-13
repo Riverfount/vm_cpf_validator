@@ -5,10 +5,9 @@
 
 import pytest
 
-from click.testing import CliRunner
 
+from click.testing import CliRunner
 from vm_cpf_validator import vm_cpf_validator
-from vm_cpf_validator import cli
 
 
 @pytest.fixture
